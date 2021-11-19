@@ -34,7 +34,7 @@ class DummyService {
               assigneeId: '03e0022891-c5cb-4ac5-90d4-3c4224f40ba2',
               assigneeName: 'Peter Roberts',
               dueDate: '2021-12-02T16:09:04.258Z',
-              completed: true,
+              completed: false,
             },
             {
               id: '010e005-b762-485f-8f7e-723e009d4f302',
