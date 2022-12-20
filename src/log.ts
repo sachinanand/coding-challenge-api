@@ -1,14 +1,14 @@
 class Logger {
   error(...args: any[]) {
-    console.error(...args)
+    console.error("Error:",...args)
   }
 
   info(...args: any[]) {
-    console.info(...args)
+    console.info("Info",...args)
   }
 
   warn(...args: any[]) {
-    console.warn(...args)
+    console.warn("Warning",...args)
   }
 }
 

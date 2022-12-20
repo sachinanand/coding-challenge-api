@@ -5,7 +5,7 @@ import * as Routes from './routes'
 // import db from './db'
 class APIServer {
   private server = new Hapi.Server({
-    port: process.env.PORT ?? 3000,
+    port: process.env.PORT ?? 4000,
     routes: {
       cors: {
         origin: ['http://localhost:3001'],
